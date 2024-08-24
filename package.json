@@ -1,0 +1,49 @@
+{
+	"name": "@haze/cli",
+	"version": "1.0.0",
+	"description": "Your developer tools just a command away.",
+	"main": "src/program.ts",
+	"type": "module",
+	"scripts": {
+		"lint": "biome check",
+		"lint:fix": "biome check --write",
+		"typecheck": "tsc --noEmit",
+		"test": "vitest"
+	},
+	"keywords": [
+		"CLI",
+		"templates",
+		"developer-tools",
+		"project-starter",
+		"automation",
+		"GitHub",
+		"codegen",
+		"haze",
+		"monorepo",
+		"npm",
+		"open-source"
+	],
+	"author": {
+		"name": "dcdm3g",
+		"email": "davicosta01082008@gmail.com",
+		"url": "https://github.com/dcdm3g"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^5.3.0",
+		"commander": "^12.1.0",
+		"conf": "^13.0.1",
+		"launch-editor": "^2.8.1",
+		"prompts": "2.4.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@commitlint/cli": "^19.4.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@types/node": "^22.5.0",
+		"@types/prompts": "^2.4.9",
+		"lefthook": "^1.7.14",
+		"tsx": "^4.17.0",
+		"typescript": "^5.5.4"
+	}
+}
