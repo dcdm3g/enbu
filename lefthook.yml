@@ -4,8 +4,6 @@ pre-commit:
       run: pnpm typecheck
     lint:
       run: pnpm lint
-    test:
-      run: pnpm test run
 
 commit-msg:
   commands:
