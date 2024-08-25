@@ -10,7 +10,7 @@ const program = new Command()
 program
 	.name('haze')
 	.alias('hz')
-	.description('CLI to clone your own templates from GitHub')
+	.description('CLI to manage and use your own developer tools')
 	.version('1.0.0')
 
 program.addCommand(init)
