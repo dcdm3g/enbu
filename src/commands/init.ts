@@ -26,25 +26,10 @@ export const init = new Command()
 			const utilsDir = path.join(homeDir, utils)
 
 			if (!fs.existsSync(utilsDir)) {
-				const utilsStarterDir = useUtilsStarterDir()
-
-				await fs.promises.cp(utilsStarterDir, utilsDir, {
-					recursive: true,
-				})
-
-				const { shouldLaunch } = await prompts({
-					type: 'toggle',
-					name: 'shouldLaunch',
-					message:
-						'Utils starter created. Would you like to open it with your code editor?',
-					active: 'Yes',
-					inactive: 'No',
-					initial: true,
-				})
-
-				if (shouldLaunch) {
-					launch(utilsDir)
-				}
+				console.log(
+					chalk.green('Haze utils starter created at %s.'),
+					chalk.underline(utils),
+				)
 			}
 
 			console.log(

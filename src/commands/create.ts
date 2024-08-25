@@ -75,7 +75,6 @@ export const create = new Command()
 			const appDir = path.join(cwd, app)
 
 			await fs.promises.cp(templateDir, appDir, { recursive: true })
-			launch(appDir)
 		} catch {
 			console.log(chalk.red('Something went wrong. Please try again.'))
 			process.exit(1)
