@@ -10,6 +10,10 @@
 		"typecheck": "tsc --noEmit",
 		"build": "tsup"
 	},
+	"bin": {
+		"haze": "build/program.js",
+		"hz": "build/program.js"
+	},
 	"keywords": [
 		"CLI",
 		"templates",
