@@ -2,9 +2,9 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig({
 	entry: ['src/program.ts'],
-	format: ['cjs', 'esm'],
+	format: 'esm',
 	outDir: 'build',
-	target: 'es2019',
+	target: 'es2022',
 	splitting: false,
 	sourcemap: true,
 	clean: true,
