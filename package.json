@@ -12,6 +12,7 @@
 	"bin": {
 		"enbu": "build/program.js"
 	},
+	"files": ["build"],
 	"publishConfig": {
 		"access": "public"
 	},
