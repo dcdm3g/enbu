@@ -25,6 +25,12 @@ export const init = new Command()
 			const utilsDir = path.join(homeDir, utils)
 
 			if (!fs.existsSync(utilsDir)) {
+				const utilsStarterDir = useUtilsStarterDir()
+
+				await fs.promises.cp(utilsStarterDir, utilsDir, {
+					recursive: true,
+				})
+
 				console.log(
 					chalk.green('Haze utils starter created at %s.'),
 					chalk.underline(utils),
