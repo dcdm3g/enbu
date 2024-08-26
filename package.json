@@ -1,5 +1,5 @@
 {
-	"name": "kaminari",
+	"name": "enbu",
 	"version": "1.0.0",
 	"description": "Your developer tools just a command away.",
 	"type": "module",
@@ -10,20 +10,19 @@
 		"build": "tsup"
 	},
 	"bin": {
-		"kaminari": "build/program.js",
-		"kn": "build/program.js"
+		"enbu": "build/program.js"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dcdm3g/kaminari.git"
+		"url": "git+https://github.com/dcdm3g/enbu.git"
 	},
 	"bugs": {
-		"url": "https://github.com/dcdm3g/kaminari/issues"
+		"url": "https://github.com/dcdm3g/enbu/issues"
 	},
-	"homepage": "https://github.com/dcdm3g/kaminari#readme",
+	"homepage": "https://github.com/dcdm3g/enbu#readme",
 	"keywords": [
 		"CLI",
 		"templates",
@@ -31,7 +30,7 @@
 		"project-starter",
 		"automation",
 		"codegen",
-		"kaminari",
+		"enbu",
 		"npm",
 		"open-source"
 	],

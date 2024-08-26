@@ -8,8 +8,7 @@ process.on('SIGTERM', () => process.exit(0))
 const program = new Command()
 
 program
-	.name('kaminari')
-	.alias('kn')
+	.name('enbu')
 	.description('CLI to manage and use your own developer tools')
 	.version('1.0.0')
 

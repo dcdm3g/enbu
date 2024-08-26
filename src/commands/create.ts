@@ -17,7 +17,7 @@ export const create = new Command()
 			if (typeof utils !== 'string') {
 				console.log(
 					chalk.red('Your configurations are invaid. Please run %s and retry.'),
-					chalk.underline('kaminari init'),
+					chalk.underline('enbu init'),
 				)
 
 				process.exit(1)

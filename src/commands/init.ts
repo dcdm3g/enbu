@@ -9,7 +9,7 @@ import chalk from 'chalk'
 
 export const init = new Command()
 	.name('init')
-	.description('Tell Kaminari where your utils are')
+	.description('Tell Enbu where your utils are')
 	.action(async () => {
 		try {
 			const { utils } = await prompts({
@@ -32,14 +32,14 @@ export const init = new Command()
 				})
 
 				console.log(
-					chalk.green('Kaminari utils starter created at %s.'),
+					chalk.green('Enbu utils starter created at %s.'),
 					chalk.underline(utils),
 				)
 			}
 
 			console.log(
 				chalk.green('Success! You may now run %s to use your templates.'),
-				chalk.underline('kaminari create'),
+				chalk.underline('enbu create'),
 			)
 		} catch {
 			console.log(chalk.red('Something went wrong. Please try again.'))

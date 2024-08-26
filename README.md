@@ -1,6 +1,6 @@
-# Kaminari
+# Enbu
 
-Kaminari is your go-to command-line tool for quickly cloning and starting projects using your favorite local templates. Designed to streamline your workflow, Kaminari allows you to kickstart new projects with minimal setup by leveraging your locally stored templates. Future versions will integrate GitHub for even more flexibility.
+Enbu is your go-to command-line tool for quickly cloning and starting projects using your favorite local templates. Designed to streamline your workflow, Enbu allows you to kickstart new projects with minimal setup by leveraging your locally stored templates. Future versions will integrate GitHub for even more flexibility.
 
 ## Features
 
@@ -11,20 +11,18 @@ Kaminari is your go-to command-line tool for quickly cloning and starting projec
 
 ### Installation
 
-First, install Kaminari globally:
+First, install Enbu globally:
 
 ```sh
-npm i -g kaminari
+npm i -g enbu
 ```
 
 ### Initialize Your Utilities Folder
 
-Set up Kaminari to point to your local utilities folder:
+Set up Enbu to point to your local utilities folder:
 
 ```sh
-kaminari init
-# or
-kn init
+enbu init
 ```
 
 This command will prompt you to specify the location of your utilities folder. Within this folder, ensure you have a templates subfolder, where each subfolder is treated as an individual project template.
@@ -34,12 +32,10 @@ This command will prompt you to specify the location of your utilities folder. W
 Once initialized, you can easily start a new project by cloning a template:
 
 ```sh
-kaminari create
-# or
-kn create
+enbu create
 ```
 
-Kaminari will prompt you to select a template from your local templates folder and create a new project in the specified location.
+Enbu will prompt you to select a template from your local templates folder and create a new project in the specified location.
 
 ## Future Plans
 
@@ -51,7 +47,7 @@ While the current version focuses on local template management, future updates m
 
 ## Contributing
 
-The initial version of Kaminari is simple and focused, but contributions are welcome. Whether you're interested in enhancing the tool or just sharing ideas, feel free to open an issue or submit a pull request.
+The initial version of Enbu is simple and focused, but contributions are welcome. Whether you're interested in enhancing the tool or just sharing ideas, feel free to open an issue or submit a pull request.
 
 ## License
 
