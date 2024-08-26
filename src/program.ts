@@ -8,8 +8,8 @@ process.on('SIGTERM', () => process.exit(0))
 const program = new Command()
 
 program
-	.name('haze')
-	.alias('hz')
+	.name('kaminari')
+	.alias('kn')
 	.description('CLI to manage and use your own developer tools')
 	.version('1.0.0')
 

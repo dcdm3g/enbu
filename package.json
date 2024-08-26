@@ -1,5 +1,5 @@
 {
-	"name": "@haze/cli",
+	"name": "kaminari",
 	"version": "1.0.0",
 	"description": "Your developer tools just a command away.",
 	"type": "module",
@@ -10,20 +10,20 @@
 		"build": "tsup"
 	},
 	"bin": {
-		"haze": "build/program.js",
-		"hz": "build/program.js"
+		"kaminari": "build/program.js",
+		"kn": "build/program.js"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/dcdm3g/haze.git"
+		"url": "git+https://github.com/dcdm3g/kaminari.git"
 	},
 	"bugs": {
-		"url": "https://github.com/dcdm3g/haze/issues"
+		"url": "https://github.com/dcdm3g/kaminari/issues"
 	},
-	"homepage": "https://github.com/dcdm3g/haze#readme",
+	"homepage": "https://github.com/dcdm3g/kaminari#readme",
 	"keywords": [
 		"CLI",
 		"templates",
@@ -31,7 +31,7 @@
 		"project-starter",
 		"automation",
 		"codegen",
-		"haze",
+		"kaminari",
 		"npm",
 		"open-source"
 	],
