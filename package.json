@@ -2,7 +2,6 @@
 	"name": "@haze/cli",
 	"version": "1.0.0",
 	"description": "Your developer tools just a command away.",
-	"main": "src/program.ts",
 	"type": "module",
 	"scripts": {
 		"lint": "biome check",
@@ -14,16 +13,25 @@
 		"haze": "build/program.js",
 		"hz": "build/program.js"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dcdm3g/haze.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dcdm3g/haze/issues"
+	},
+	"homepage": "https://github.com/dcdm3g/haze#readme",
 	"keywords": [
 		"CLI",
 		"templates",
 		"developer-tools",
 		"project-starter",
 		"automation",
-		"GitHub",
 		"codegen",
 		"haze",
-		"monorepo",
 		"npm",
 		"open-source"
 	],
