@@ -14,7 +14,7 @@ Enbu is your go-to command-line tool for quickly cloning and starting projects u
 First, install Enbu globally:
 
 ```sh
-npm i -g enbu
+npm i -g @enbu/cli
 ```
 
 ### Initialize Your Utilities Folder

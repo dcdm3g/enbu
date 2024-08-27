@@ -1,5 +1,5 @@
 {
-	"name": "enbu",
+	"name": "@enbu/cli",
 	"version": "1.0.0",
 	"description": "Your developer tools just a command away.",
 	"type": "module",
